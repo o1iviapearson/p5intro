@@ -48,11 +48,35 @@ circle(550, 200, 150);
 circle(470, 180, 150);
 
 
-// Eyes
+
+// Left eye stays open
 noStroke();
 fill(255);
-ellipse(400, 400, 45, 35);
-ellipse(600, 400, 45, 35);
+ellipse(400, 400, 50, 40);
+
+fill(0);
+circle(400, 400, 20);
+
+// Right eye winks when mouse hovers over it
+let d = dist(mouseX, mouseY, 600, 400);
+
+if (d < 40) {
+  // Closed eye (wink)
+  noFill();
+  stroke(61, 33, 9);
+  strokeWeight(6);
+  arc(600, 400, 50, 25, 0, PI);
+
+} else {
+  // Open eye
+  noStroke();
+  fill(255);
+  ellipse(600, 400, 50, 40);
+
+  fill(0);
+  circle(600, 400, 20);
+}
+
 
 // Pupils
 fill(45, 25, 15);
