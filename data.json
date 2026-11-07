@@ -1,0 +1,31 @@
+
+{
+  "Monday": {
+    "mood": "stressed",
+    "energy": 1
+  },
+  "Tuesday": {
+    "mood": "happy",
+    "energy": 5
+  },
+  "Wednesday": {
+    "mood": "stressed",
+    "energy": 1
+  },
+  "Thursday": {
+    "mood": "calm",
+    "energy": 10
+  },
+  "Friday": {
+    "mood": "happy",
+    "energy": 9
+  },
+  "Saturday": {
+    "mood": "happy",
+    "energy": 7
+  },
+  "Sunday": {
+    "mood": "calm",
+    "energy": 6
+  }
+}
